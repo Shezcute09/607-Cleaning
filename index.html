@@ -8,6 +8,13 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    <link rel="preload" href="custom-images/cImage1.webp" as="image">
+    <link rel="preload" href="custom-images/cImage2.webp" as="image">
+    <link rel="preload" href="custom-images/cImage3.webp" as="image">
+    <link rel="preload" href="custom-images/heroImage.webp" as="image">
+    <link rel="preload" href="custom-images/logo.webp" as="image">
     <title> 607 cleaning || Cleaning </title>
     <!-- favicons Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="custom-images/blueLogo.png" />
@@ -74,8 +81,6 @@
     <link rel="stylesheet" href="assets/css/module-css/why-choose.css">
     <link rel="stylesheet" href="assets/css/module-css/working-process.css">
 
-
-    <link rel="stylesheet" href="assets/css/swiper.min.css" />
     <!-- template styles -->
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/responsive.css" />
@@ -116,7 +121,8 @@
                         <div class="sidebar-info-contents">
                             <div class="content-inner">
                                 <div class="logo">
-                                    <a href="index.html"><img src="assets/images/resources/logo-3.png" alt="" /></a>
+                                    <a href="index.html">
+                                        <img src="assets/images/resources/logo-3.png" alt="" loading="lazy" /></a>
                                 </div>
                                 <div class="content-box">
                                     <h4>About Us</h4>
@@ -158,15 +164,15 @@
                                     <h4>Contact Info</h4>
                                     <ul>
                                         <li>
-                                            <span class="icon-location"></span> Lagos, Nigeria
+                                            <span class="icon-location"></span> 88 broklyn street, New York
                                         </li>
                                         <li>
-                                           <span class="icon-phone-call"></span>
-                                            <a href="tel:+2347071657516">+2347071657516</a>
+                                            <span class="icon-phone-call"></span>
+                                            <a href="tel:123456789">+1 555-9990-153</a>
                                         </li>
                                         <li>
                                             <span class="icon-envelope"></span>
-                                            <a href="mailto:info@607cleaning.com.ng">info@607cleaning.com.ng</a>
+                                            <a href="mailto:info@example.com">info@example.com</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -205,8 +211,13 @@
                             <div class="main-menu__wrapper-inner">
                                 <div class="main-header-one__bottom-left">
                                     <div class="logo-one">
-                                        <a href="#home"><img src="custom-images/logo.svg" alt="" width="180px"
-                                                height="60px"></a>
+                                        <a href="#home">
+                                            <Picture>
+                                                <source srcset="/custom-images/logo.webp" type="image/webp">
+                                                <img src="custom-images/logo.webp" alt="logo" width="180px"
+                                                    height="60px" loading="lazy">
+                                            </Picture>
+                                        </a>
                                         <h1 class="consistent-heading">CLEANING</h1>
                                     </div>
                                 </div>
@@ -264,10 +275,13 @@
             <div class="main-slider-three__carousel thm-dot-style1 owl-carousel owl-theme">
                 <!--Start Main Slider Three Single-->
                 <div class="main-slider-one__single">
-                    <div class="main-slider-one__bg" style="background-image: url(custom-images/heroImage.jpg);"></div>
-                    <div class="shape5 float-bob-y"><img src="assets/images/shapes/slider-v3-shape1.png" alt=""></div>
-                    <div class="shape6"><img src="assets/images/shapes/slider-v3-shape2.png" alt=""></div>
-                    <div class="shape7"><img src="assets/images/shapes/slider-v3-shape3.png" alt=""></div>
+                    <div class="main-slider-one__bg" style="background-image: url(custom-images/heroImage.webp);"></div>
+                    <div class="shape5 float-bob-y"><img src="assets/images/shapes/slider-v3-shape1.png" alt=""
+                            loading="lazy"></div>
+                    <div class="shape6"><img src="assets/images/shapes/slider-v3-shape2.png" alt="" loading="lazy">
+                    </div>
+                    <div class="shape7"><img src="assets/images/shapes/slider-v3-shape3.png" alt="" loading="lazy">
+                    </div>
                     <div class="container">
                         <div class="main-slider-one__content">
                             <div class="tagline">
@@ -300,10 +314,13 @@
 
                 <!--Start Main Slider Three Single-->
                 <div class="main-slider-one__single">
-                    <div class="main-slider-one__bg" style="background-image: url(custom-images/cImage1.jpg);"></div>
-                    <div class="shape5 float-bob-y"><img src="assets/images/shapes/slider-v3-shape1.png" alt=""></div>
-                    <div class="shape6"><img src="assets/images/shapes/slider-v3-shape2.png" alt=""></div>
-                    <div class="shape7"><img src="assets/images/shapes/slider-v3-shape3.png" alt=""></div>
+                    <div class="main-slider-one__bg" style="background-image: url(custom-images/cImage1.webp);"></div>
+                    <div class="shape5 float-bob-y"><img src="assets/images/shapes/slider-v3-shape1.png" alt=""
+                            loading="lazy"></div>
+                    <div class="shape6"><img src="assets/images/shapes/slider-v3-shape2.png" alt="" loading="lazy">
+                    </div>
+                    <div class="shape7"><img src="assets/images/shapes/slider-v3-shape3.png" alt="" loading="lazy">
+                    </div>
                     <div class="container">
                         <div class="main-slider-one__content">
                             <div class="tagline">
@@ -336,10 +353,13 @@
 
                 <!--Start Main Slider Three Single-->
                 <div class="main-slider-one__single">
-                    <div class="main-slider-one__bg" style="background-image: url(custom-images/cImage2.jpg);"></div>
-                    <div class="shape5 float-bob-y"><img src="assets/images/shapes/slider-v3-shape1.png" alt=""></div>
-                    <div class="shape6"><img src="assets/images/shapes/slider-v3-shape2.png" alt=""></div>
-                    <div class="shape7"><img src="assets/images/shapes/slider-v3-shape3.png" alt=""></div>
+                    <div class="main-slider-one__bg" style="background-image: url(custom-images/cImage2.webp);"></div>
+                    <div class="shape5 float-bob-y"><img src="assets/images/shapes/slider-v3-shape1.png" alt=""
+                            loading="lazy"></div>
+                    <div class="shape6"><img src="assets/images/shapes/slider-v3-shape2.png" alt="" loading="lazy">
+                    </div>
+                    <div class="shape7"><img src="assets/images/shapes/slider-v3-shape3.png" alt="" loading="lazy">
+                    </div>
                     <div class="container">
                         <div class="main-slider-one__content">
                             <div class="tagline">
@@ -382,12 +402,15 @@
                         <div class="about-four__img">
                             <div class="about-four__img1">
                                 <div class="about-four__img1-inner">
-                                    <img src="assets/images/about/about-v4-img3.jpg" alt="">
+                                    <img src="assets/images/about/about-v4-img3.jpg" alt="" loading="lazy">
                                 </div>
                             </div>
                             <div class="about-four__img2">
                                 <div class="about-four__img2-inner">
-                                    <img src="custom-images/cImage1.jpg" alt="">
+                                    <picture>
+                                        <source srcset="/custom-images/cImage1.webp" type="image/webp">
+                                        <img src="custom-images/cImage1.webp" alt="" loading="lazy">
+                                    </picture>
                                 </div>
                             </div>
                             <div class="about-four__experience">
@@ -473,7 +496,7 @@
                                     </div>
                                     <div class="text-box">
                                         <span>Call Anytime</span>
-                                        <p><a href="tel:+2347071657516">+2347071657516</a></p>
+                                        <p><a href="tel:1234567890">+817 895 74555</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -627,12 +650,15 @@
                     <div class="team-one__single">
                         <div class="team-one__single-inner">
                             <div class="team-one__single-img">
-                                <img src="custom-images/cImage1.jpg" alt="">
+                                <picture>
+                                    <source srcset="/custom-images/cImage1.webp" type="image/webp">
+                                    <img src="custom-images/cImage1.webp" alt="" loading="lazy">
+                                </picture>
                             </div>
 
                             <div class="team-one__single-content">
                                 <div class="img-box">
-                                    <img src="assets/images/team/team-v1-img5.jpg" alt="#">
+                                    <img src="assets/images/team/team-v1-img5.jpg" alt="#" loading="lazy">
                                 </div>
 
                                 <div class="text-box">
@@ -655,12 +681,15 @@
                     <div class="team-one__single">
                         <div class="team-one__single-inner">
                             <div class="team-one__single-img">
-                                <img src="custom-images/cImage2.jpg" alt="">
+                                <picture>
+                                    <source srcset="/custom-images/cImage2.webp" type="image/webp">
+                                    <img src="custom-images/cImage2.webp" alt="" loading="lazy">
+                                </picture>
                             </div>
 
                             <div class="team-one__single-content">
                                 <div class="img-box">
-                                    <img src="assets/images/team/team-v1-img6.jpg" alt="#">
+                                    <img src="assets/images/team/team-v1-img6.jpg" alt="#" loading="lazy">
                                 </div>
 
                                 <div class="text-box">
@@ -683,12 +712,15 @@
                     <div class="team-one__single">
                         <div class="team-one__single-inner">
                             <div class="team-one__single-img">
-                                <img src="custom-images/cImage1.jpg" alt="">
+                                <picture>
+                                    <source srcset="/custom-images/cImage1.webp" type="image/webp">
+                                    <img src="custom-images/cImage1.webp" alt="" loading="lazy">
+                                </picture>
                             </div>
 
                             <div class="team-one__single-content">
                                 <div class="img-box">
-                                    <img src="assets/images/team/team-v1-img7.jpg" alt="#">
+                                    <img src="assets/images/team/team-v1-img7.jpg" alt="#" loading="lazy">
                                 </div>
 
                                 <div class="text-box">
@@ -711,12 +743,15 @@
                     <div class="team-one__single">
                         <div class="team-one__single-inner">
                             <div class="team-one__single-img">
-                                <img src="custom-images/cImage2.jpg" alt="">
+                                <picture>
+                                    <source srcset="/custom-images/cImage2.webp" type="image/webp">
+                                    <img src="custom-images/cImage2.webp" alt="" loading="lazy">
+                                </picture>
                             </div>
 
                             <div class="team-one__single-content">
                                 <div class="img-box">
-                                    <img src="assets/images/team/team-v1-img8.jpg" alt="#">
+                                    <img src="assets/images/team/team-v1-img8.jpg" alt="#" loading="lazy">
                                 </div>
 
                                 <div class="text-box">
@@ -739,12 +774,12 @@
                     <div class="team-one__single">
                         <div class="team-one__single-inner">
                             <div class="team-one__single-img">
-                                <img src="assets/images/team/team-v1-img1.jpg" alt="">
+                                <img src="assets/images/team/team-v1-img1.jpg" alt="" loading="lazy">
                             </div>
 
                             <div class="team-one__single-content">
                                 <div class="img-box">
-                                    <img src="assets/images/team/team-v1-img5.jpg" alt="#">
+                                    <img src="assets/images/team/team-v1-img5.jpg" alt="#" loading="lazy">
                                 </div>
 
                                 <div class="text-box">
@@ -767,12 +802,12 @@
                     <div class="team-one__single">
                         <div class="team-one__single-inner">
                             <div class="team-one__single-img">
-                                <img src="assets/images/team/team-v1-img2.jpg" alt="">
+                                <img src="assets/images/team/team-v1-img2.jpg" alt="" loading="lazy">
                             </div>
 
                             <div class="team-one__single-content">
                                 <div class="img-box">
-                                    <img src="assets/images/team/team-v1-img6.jpg" alt="#">
+                                    <img src="assets/images/team/team-v1-img6.jpg" alt="#" loading="lazy">
                                 </div>
 
                                 <div class="text-box">
@@ -795,12 +830,12 @@
                     <div class="team-one__single">
                         <div class="team-one__single-inner">
                             <div class="team-one__single-img">
-                                <img src="assets/images/team/team-v1-img3.jpg" alt="">
+                                <img src="assets/images/team/team-v1-img3.jpg" alt="" loading="lazy">
                             </div>
 
                             <div class="team-one__single-content">
                                 <div class="img-box">
-                                    <img src="assets/images/team/team-v1-img7.jpg" alt="#">
+                                    <img src="assets/images/team/team-v1-img7.jpg" alt="#" loading="lazy">
                                 </div>
 
                                 <div class="text-box">
@@ -823,12 +858,12 @@
                     <div class="team-one__single">
                         <div class="team-one__single-inner">
                             <div class="team-one__single-img">
-                                <img src="assets/images/team/team-v1-img4.jpg" alt="">
+                                <img src="assets/images/team/team-v1-img4.jpg" alt="" loading="lazy">
                             </div>
 
                             <div class="team-one__single-content">
                                 <div class="img-box">
-                                    <img src="assets/images/team/team-v1-img8.jpg" alt="#">
+                                    <img src="assets/images/team/team-v1-img8.jpg" alt="#" loading="lazy">
                                 </div>
 
                                 <div class="text-box">
@@ -851,12 +886,12 @@
                     <div class="team-one__single">
                         <div class="team-one__single-inner">
                             <div class="team-one__single-img">
-                                <img src="assets/images/team/team-v1-img1.jpg" alt="">
+                                <img src="assets/images/team/team-v1-img1.jpg" alt="" loading="lazy">
                             </div>
 
                             <div class="team-one__single-content">
                                 <div class="img-box">
-                                    <img src="assets/images/team/team-v1-img5.jpg" alt="#">
+                                    <img src="assets/images/team/team-v1-img5.jpg" alt="#" loading="lazy">
                                 </div>
 
                                 <div class="text-box">
@@ -879,12 +914,12 @@
                     <div class="team-one__single">
                         <div class="team-one__single-inner">
                             <div class="team-one__single-img">
-                                <img src="assets/images/team/team-v1-img2.jpg" alt="">
+                                <img src="assets/images/team/team-v1-img2.jpg" alt="" loading="lazy">
                             </div>
 
                             <div class="team-one__single-content">
                                 <div class="img-box">
-                                    <img src="assets/images/team/team-v1-img6.jpg" alt="#">
+                                    <img src="assets/images/team/team-v1-img6.jpg" alt="#" loading="lazy">
                                 </div>
 
                                 <div class="text-box">
@@ -907,12 +942,12 @@
                     <div class="team-one__single">
                         <div class="team-one__single-inner">
                             <div class="team-one__single-img">
-                                <img src="assets/images/team/team-v1-img3.jpg" alt="">
+                                <img src="assets/images/team/team-v1-img3.jpg" alt="" loading="lazy">
                             </div>
 
                             <div class="team-one__single-content">
                                 <div class="img-box">
-                                    <img src="assets/images/team/team-v1-img7.jpg" alt="#">
+                                    <img src="assets/images/team/team-v1-img7.jpg" alt="#" loading="lazy">
                                 </div>
 
                                 <div class="text-box">
@@ -935,12 +970,12 @@
                     <div class="team-one__single">
                         <div class="team-one__single-inner">
                             <div class="team-one__single-img">
-                                <img src="assets/images/team/team-v1-img4.jpg" alt="">
+                                <img src="assets/images/team/team-v1-img4.jpg" alt="" loading="lazy">
                             </div>
 
                             <div class="team-one__single-content">
                                 <div class="img-box">
-                                    <img src="assets/images/team/team-v1-img8.jpg" alt="#">
+                                    <img src="assets/images/team/team-v1-img8.jpg" alt="#" loading="lazy">
                                 </div>
 
                                 <div class="text-box">
@@ -963,12 +998,12 @@
                     <div class="team-one__single">
                         <div class="team-one__single-inner">
                             <div class="team-one__single-img">
-                                <img src="assets/images/team/team-v1-img1.jpg" alt="">
+                                <img src="assets/images/team/team-v1-img1.jpg" alt="" loading="lazy">
                             </div>
 
                             <div class="team-one__single-content">
                                 <div class="img-box">
-                                    <img src="assets/images/team/team-v1-img5.jpg" alt="#">
+                                    <img src="assets/images/team/team-v1-img5.jpg" alt="#" loading="lazy">
                                 </div>
 
                                 <div class="text-box">
@@ -991,12 +1026,12 @@
                     <div class="team-one__single">
                         <div class="team-one__single-inner">
                             <div class="team-one__single-img">
-                                <img src="assets/images/team/team-v1-img2.jpg" alt="">
+                                <img src="assets/images/team/team-v1-img2.jpg" alt="" loading="lazy">
                             </div>
 
                             <div class="team-one__single-content">
                                 <div class="img-box">
-                                    <img src="assets/images/team/team-v1-img6.jpg" alt="#">
+                                    <img src="assets/images/team/team-v1-img6.jpg" alt="#" loading="lazy">
                                 </div>
 
                                 <div class="text-box">
@@ -1019,12 +1054,12 @@
                     <div class="team-one__single">
                         <div class="team-one__single-inner">
                             <div class="team-one__single-img">
-                                <img src="assets/images/team/team-v1-img3.jpg" alt="">
+                                <img src="assets/images/team/team-v1-img3.jpg" alt="" loading="lazy">
                             </div>
 
                             <div class="team-one__single-content">
                                 <div class="img-box">
-                                    <img src="assets/images/team/team-v1-img7.jpg" alt="#">
+                                    <img src="assets/images/team/team-v1-img7.jpg" alt="#" loading="lazy">
                                 </div>
 
                                 <div class="text-box">
@@ -1047,12 +1082,12 @@
                     <div class="team-one__single">
                         <div class="team-one__single-inner">
                             <div class="team-one__single-img">
-                                <img src="assets/images/team/team-v1-img4.jpg" alt="">
+                                <img src="assets/images/team/team-v1-img4.jpg" alt="" loading="lazy">
                             </div>
 
                             <div class="team-one__single-content">
                                 <div class="img-box">
-                                    <img src="assets/images/team/team-v1-img8.jpg" alt="#">
+                                    <img src="assets/images/team/team-v1-img8.jpg" alt="#" loading="lazy">
                                 </div>
 
                                 <div class="text-box">
@@ -1171,7 +1206,8 @@
 
         <!--Start Testimonial Three-->
         <section class="testimonial-three" id="testimonials">
-            <div class="testimonial-three__pattern"><img src="assets/images/pattern/testimonial-v3-pattern.png" alt="">
+            <div class="testimonial-three__pattern"><img src="assets/images/pattern/testimonial-v3-pattern.png" alt=""
+                    loading="lazy">
             </div>
             <div class="container">
                 <div class="row">
@@ -1194,17 +1230,20 @@
                                 <ul class="testimonial-three__reviews-list">
                                     <li>
                                         <div class="testimonial-three__reviews-img">
-                                            <img src="assets/images/resources/satisfied-partner-img1.jpg" alt="">
+                                            <img src="assets/images/resources/satisfied-partner-img1.jpg" alt=""
+                                                loading="lazy">
                                         </div>
                                     </li>
                                     <li>
                                         <div class="testimonial-three__reviews-img">
-                                            <img src="assets/images/resources/satisfied-partner-img2.jpg" alt="">
+                                            <img src="assets/images/resources/satisfied-partner-img2.jpg" alt=""
+                                                loading="lazy">
                                         </div>
                                     </li>
                                     <li>
                                         <div class="testimonial-three__reviews-img">
-                                            <img src="assets/images/resources/satisfied-partner-img3.jpg" alt="">
+                                            <img src="assets/images/resources/satisfied-partner-img3.jpg" alt=""
+                                                loading="lazy">
                                         </div>
                                     </li>
                                 </ul>
@@ -1254,7 +1293,8 @@
 
                                         <div class="testimonial-three__single-bottom">
                                             <div class="img-box">
-                                                <img src="assets/images/testimonial/testimonial-v3-img1.jpg" alt="">
+                                                <img src="assets/images/testimonial/testimonial-v3-img1.jpg" alt=""
+                                                    loading="lazy">
                                             </div>
                                             <div class="author-info">
                                                 <h2>David Cooper</h2>
@@ -1289,7 +1329,8 @@
 
                                         <div class="testimonial-three__single-bottom">
                                             <div class="img-box">
-                                                <img src="assets/images/testimonial/testimonial-v3-img2.jpg" alt="">
+                                                <img src="assets/images/testimonial/testimonial-v3-img2.jpg" alt=""
+                                                    loading="lazy">
                                             </div>
                                             <div class="author-info">
                                                 <h2>Parker Jimenez</h2>
@@ -1324,7 +1365,8 @@
 
                                         <div class="testimonial-three__single-bottom">
                                             <div class="img-box">
-                                                <img src="assets/images/testimonial/testimonial-v3-img1.jpg" alt="">
+                                                <img src="assets/images/testimonial/testimonial-v3-img1.jpg" alt=""
+                                                    loading="lazy">
                                             </div>
                                             <div class="author-info">
                                                 <h2>David Cooper</h2>
@@ -1359,7 +1401,8 @@
 
                                         <div class="testimonial-three__single-bottom">
                                             <div class="img-box">
-                                                <img src="assets/images/testimonial/testimonial-v3-img2.jpg" alt="">
+                                                <img src="assets/images/testimonial/testimonial-v3-img2.jpg" alt=""
+                                                    loading="lazy">
                                             </div>
                                             <div class="author-info">
                                                 <h2>Parker Jimenez</h2>
@@ -1395,8 +1438,13 @@
                         <div class="col-xl-3 col-lg-6 col-md-6  wow fadeInUp" data-wow-delay=".0s">
                             <div class="footer-widget__single site-footer-two__about">
                                 <div class="site-footer__logo">
-                                    <a href="#home"><img src="custom-images/logo.svg" alt="" width="180px"
-                                            height="60px"></a>
+                                    <a href="#home">
+                                        <Picture>
+                                            <source srcset="/custom-images/logowebp" type="image/webp">
+                                            <img src="custom-images/logo.webp" alt="" width="180px" height="60px"
+                                                loading="lazy">
+                                        </Picture>
+                                    </a>
                                     <h6 style="color: white;">Cleaning</h6>
                                 </div>
 
@@ -1487,15 +1535,15 @@
 
                                 <ul class="site-footer__payment">
                                     <li><a href="#"><img src="assets/images/resources/site-footer-payment-img1.png"
-                                                alt=""></a></li>
+                                                alt="" loading="lazy"></a></li>
                                     <li><a href="#"><img src="assets/images/resources/site-footer-payment-img2.png"
-                                                alt=""></a></li>
+                                                alt="" loading="lazy"></a></li>
                                     <li><a href="#"><img src="assets/images/resources/site-footer-payment-img3.png"
-                                                alt=""></a></li>
+                                                alt="" loading="lazy"></a></li>
                                     <li><a href="#"><img src="assets/images/resources/site-footer-payment-img4.png"
-                                                alt=""></a></li>
+                                                alt="" loading="lazy"></a></li>
                                     <li><a href="#"><img src="assets/images/resources/site-footer-payment-img5.png"
-                                                alt=""></a></li>
+                                                alt="" loading="lazy"></a></li>
                                 </ul>
 
                             </div>
@@ -1520,18 +1568,18 @@
             </span>
             <div class="logo-box">
                 <a href="index.html" aria-label="logo image">
-                    <img src="assets/images/resources/logo-2.png" alt="Logo" />
+                    <img src="assets/images/resources/logo-2.png" alt="Logo" loading="lazy" />
                 </a>
             </div>
             <div class="mobile-nav__container"></div>
             <ul class="mobile-nav__contact list-unstyled">
                 <li>
                     <i class="icon-envelope"></i>
-                    <a href="mailto:info@607cleaning.com.ng">info@607cleaning.com.ng</a>
+                    <a href="mailto:needhelp@packageName__.com">needhelp@cleanin.com</a>
                 </li>
                 <li>
-                   <i class="icon-phone-call"></i>
-                    <a href="tel:+2347071657516">+2347071657516</a>
+                    <i class="icon-phone-call"></i>
+                    <a href="tel:666-888-0000">666 888 0000</a>
                 </li>
             </ul>
             <div class="mobile-nav__top">
@@ -1566,84 +1614,82 @@
         <span class="scroll-to-top__wrapper"><span class="scroll-to-top__inner"></span></span>
         <span class="scroll-to-top__text"> Go Back Top</span>
     </a>
+    <script src="assets/js/jquery-latest.js" defer></script>
+    <script src="assets/js/jquery.ajaxchimp.min.js" defer></script>
+    <script src="assets/js/jquery.circle-progress.min.js" defer></script>
+    <script src="assets/js/jquery.event.move.js" defer></script>
+    <script src="assets/js/jquery.validate.min.js" defer></script>
+    <script src="assets/js/swiper.min.js" defer></script>
+    <script src="assets/js/knob.js" defer></script>
+    <script src="assets/js/marquee.min.js" defer></script>
+    <script src="assets/js/twentytwenty.js" defer></script>
+    <script src="assets/js/typed-2.0.11.js" defer></script>
+    <script src="assets/js/wNumb.min.js" defer></script>
+    <script src="assets/js/curved-text/jquery.circleType.js" defer></script>
+    <script src="assets/js/curved-text/jquery.fittext.js" defer></script>
+    <script src="assets/js/curved-text/jquery.lettering.min.js" defer></script>
+    <script src="assets/js/gsap/gsap.js" defer></script>
+    <script src="assets/js/gsap/ScrollTrigger.js" defer></script>
+    <script src="assets/js/gsap/SplitText.js" defer></script>
 
-    <script src="assets/js/jquery-latest.js"></script>
-    <script src="assets/js/jquery.ajaxchimp.min.js"></script>
-    <script src="assets/js/jquery.circle-progress.min.js"></script>
-    <script src="assets/js/jquery.event.move.js"></script>
-    <script src="assets/js/jquery.validate.min.js"></script>
-    <script src="assets/js/swiper.min.js"></script>
-    <script src="assets/js/knob.js"></script>
-    <script src="assets/js/marquee.min.js"></script>
-    <script src="assets/js/twentytwenty.js"></script>
-    <script src="assets/js/typed-2.0.11.js"></script>
-    <script src="assets/js/wNumb.min.js"></script>
-    <script src="assets/js/curved-text/jquery.circleType.js"></script>
-    <script src="assets/js/curved-text/jquery.fittext.js"></script>
-    <script src="assets/js/curved-text/jquery.lettering.min.js"></script>
-    <script src="assets/js/gsap/gsap.js"></script>
-    <script src="assets/js/gsap/ScrollTrigger.js"></script>
-    <script src="assets/js/gsap/SplitText.js"></script>
+    <script src="assets/js/01-bootstrap.bundle.min.js" defer></script>
+    <script src="assets/js/02-countdown.min.js" defer></script>
+    <script src="assets/js/03-jquery.appear.min.js" defer></script>
+    <script src="assets/js/04-jquery.nice-select.min.js" defer></script>
+    <script src="assets/js/05-owl.carousel.min.js" defer></script>
+    <script src="assets/js/06-jarallax.min.js" defer></script>
+    <script src="assets/js/07-odometer.min.js" defer></script>
+    <script src="assets/js/08-jquery-ui.js" defer></script>
+    <script src="assets/js/09-jquery.magnific-popup.min.js" defer></script>
+    <script src="assets/js/10-wow.js" defer></script>
+    <script src="assets/js/11-isotope.js" defer></script>
+    <script src="assets/js/12-jquery-sidebar-content.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
 
-
-    <script src="assets/js/01-bootstrap.bundle.min.js"></script>
-    <script src="assets/js/02-countdown.min.js"></script>
-    <script src="assets/js/03-jquery.appear.min.js"></script>
-    <script src="assets/js/04-jquery.nice-select.min.js"></script>
-    <script src="assets/js/05-owl.carousel.min.js"></script>
-    <script src="assets/js/06-jarallax.min.js"></script>
-    <script src="assets/js/07-odometer.min.js"></script>
-    <script src="assets/js/08-jquery-ui.js"></script>
-    <script src="assets/js/09-jquery.magnific-popup.min.js"></script>
-    <script src="assets/js/10-wow.js"></script>
-    <script src="assets/js/11-isotope.js"></script>
-    <script src="assets/js/12-jquery-sidebar-content.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-
-    <!-- template js -->
-    <script src="assets/js/script.js"></script>
+    <script src="assets/js/script.js" defer></script>
     <script>
-        const swiper = new Swiper('.swiper', {
-            // Optional parameters
-            direction: 'horizontal',
-            loop: true,
+        document.addEventListener("DOMContentLoaded", function () {
+            const swiper = new Swiper('.swiper', {
+                // Optional parameters
+                direction: 'horizontal',
+                loop: true,
 
-            // If we need pagination
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-            },
+                // If we need pagination
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
 
-            // Navigation arrows
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
+                // Navigation arrows
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
 
-            // Responsive breakpoints
-            breakpoints: {
-                // when window width is >= 320px (mobile)
-                320: {
-                    slidesPerView: 1,
-                    spaceBetween: 20
-                },
-                // when window width is >= 768px (tablet)
-                768: {
-                    slidesPerView: 2,
-                    spaceBetween: 30
-                },
-                // when window width is >= 992px (laptop)
-                992: {
-                    slidesPerView: 3,
-                    spaceBetween: 40
-                },
-                // when window width is >= 1200px (desktop)
-                1200: {
-                    slidesPerView: 4,
-                    spaceBetween: 50
+                // Responsive breakpoints
+                breakpoints: {
+                    // when window width is >= 320px (mobile)
+                    320: {
+                        slidesPerView: 1,
+                        spaceBetween: 20
+                    },
+                    // when window width is >= 768px (tablet)
+                    768: {
+                        slidesPerView: 2,
+                        spaceBetween: 30
+                    },
+                    // when window width is >= 992px (laptop)
+                    992: {
+                        slidesPerView: 3,
+                        spaceBetween: 40
+                    },
+                    // when window width is >= 1200px (desktop)
+                    1200: {
+                        slidesPerView: 4,
+                        spaceBetween: 50
+                    }
                 }
-            }
+            });
         });
     </script>
 </body>
